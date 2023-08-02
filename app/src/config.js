@@ -187,7 +187,7 @@ module.exports = {
         },
         // WebRtcTransport settings
         webRtcTransport: {
-            listenIps: [
+            listenIps: [ 
                 {
                     ip: '0.0.0.0',
                     announcedIp: '52.15.118.168', // replace by 'public static IPV4 address' https://api.ipify.org (type string --> 'xx.xxx.xxx.xx' not xx.xxx.xxx.xx)
