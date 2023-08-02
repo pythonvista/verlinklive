@@ -24,4 +24,6 @@ CMD ufw allow 40000:40100/udp
 CMD ufw allow 22/tcp
 CMD ufw allow 80/tcp
 CMD ufw allow 443/udp
+
+CMD ufw enable
 CMD npm start
