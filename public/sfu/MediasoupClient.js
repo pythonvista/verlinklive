@@ -3818,7 +3818,18 @@
                     async getNativeRtpCapabilities() {
                         logger.debug('getNativeRtpCapabilities()');
                         const pc = new RTCPeerConnection({
-                            iceServers: [],
+                            iceServers: [{
+        urls: "stun:stun2.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun3.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun4.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun.l.google.com:19302"
+    }],
                             iceTransportPolicy: 'all',
                             bundlePolicy: 'max-bundle',
                             rtcpMuxPolicy: 'require',
@@ -4540,7 +4551,18 @@
                     async getNativeRtpCapabilities() {
                         logger.debug('getNativeRtpCapabilities()');
                         const pc = new RTCPeerConnection({
-                            iceServers: [],
+                            iceServers: [{
+        urls: "stun:stun2.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun3.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun4.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun.l.google.com:19302"
+    }],
                             iceTransportPolicy: 'all',
                             bundlePolicy: 'max-bundle',
                             rtcpMuxPolicy: 'require',
@@ -5119,7 +5141,18 @@
                     async getNativeRtpCapabilities() {
                         logger.debug('getNativeRtpCapabilities()');
                         const pc = new RTCPeerConnection({
-                            iceServers: [],
+                            iceServers: [{
+        urls: "stun:stun2.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun3.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun4.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun.l.google.com:19302"
+    }],
                             iceTransportPolicy: 'all',
                             bundlePolicy: 'max-bundle',
                             rtcpMuxPolicy: 'require',
@@ -5744,7 +5777,18 @@
                     async getNativeRtpCapabilities() {
                         logger.debug('getNativeRtpCapabilities()');
                         const pc = new RTCPeerConnection({
-                            iceServers: [],
+                            iceServers: [{
+        urls: "stun:stun2.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun3.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun4.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun.l.google.com:19302"
+    }],
                             iceTransportPolicy: 'all',
                             bundlePolicy: 'max-bundle',
                             rtcpMuxPolicy: 'require',
@@ -6419,7 +6463,18 @@
                     async getNativeRtpCapabilities() {
                         logger.debug('getNativeRtpCapabilities()');
                         const pc = new RTCPeerConnection({
-                            iceServers: [],
+                            iceServers: [{
+        urls: "stun:stun2.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun3.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun4.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun.l.google.com:19302"
+    }],
                             iceTransportPolicy: 'all',
                             bundlePolicy: 'max-bundle',
                             rtcpMuxPolicy: 'require',
@@ -7640,7 +7695,18 @@
                     async getNativeRtpCapabilities() {
                         logger.debug('getNativeRtpCapabilities()');
                         const pc = new RTCPeerConnection({
-                            iceServers: [],
+                            iceServers: [{
+        urls: "stun:stun2.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun3.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun4.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun.l.google.com:19302"
+    }],
                             iceTransportPolicy: 'all',
                             bundlePolicy: 'max-bundle',
                             rtcpMuxPolicy: 'require',
@@ -8412,7 +8478,18 @@
                     async getNativeRtpCapabilities() {
                         logger.debug('getNativeRtpCapabilities()');
                         const pc = new RTCPeerConnection({
-                            iceServers: [],
+                            iceServers: [{
+        urls: "stun:stun2.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun3.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun4.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun.l.google.com:19302"
+    }],
                             iceTransportPolicy: 'all',
                             bundlePolicy: 'max-bundle',
                             rtcpMuxPolicy: 'require',
@@ -9012,7 +9089,18 @@
                     async getNativeRtpCapabilities() {
                         logger.debug('getNativeRtpCapabilities()');
                         const pc = new RTCPeerConnection({
-                            iceServers: [],
+                            iceServers: [{
+        urls: "stun:stun2.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun3.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun4.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun.l.google.com:19302"
+    }],
                             iceTransportPolicy: 'all',
                             bundlePolicy: 'max-bundle',
                             rtcpMuxPolicy: 'require',
@@ -9773,7 +9861,18 @@
                     async getNativeRtpCapabilities() {
                         logger.debug('getNativeRtpCapabilities()');
                         const pc = new RTCPeerConnection({
-                            iceServers: [],
+                            iceServers: [{
+        urls: "stun:stun2.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun3.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun4.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun.l.google.com:19302"
+    }],
                             iceTransportPolicy: 'all',
                             bundlePolicy: 'max-bundle',
                             rtcpMuxPolicy: 'require',
@@ -10401,7 +10500,18 @@
                     async getNativeRtpCapabilities() {
                         logger.debug('getNativeRtpCapabilities()');
                         const pc = new RTCPeerConnection({
-                            iceServers: [],
+                            iceServers: [{
+        urls: "stun:stun2.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun3.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun4.l.google.com:19302"
+    },
+    {
+        urls: "stun:stun.l.google.com:19302"
+    }],
                             iceTransportPolicy: 'all',
                             bundlePolicy: 'max-bundle',
                             rtcpMuxPolicy: 'require',
