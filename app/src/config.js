@@ -26,7 +26,7 @@ module.exports = {
         listen: {
             // app listen on
             ip: '0.0.0.0',
-            port: process.env.PORT || 3010,
+            port: 3010,
         },
         ssl: {
             // ssl/README.md
