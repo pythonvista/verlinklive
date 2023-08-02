@@ -190,7 +190,7 @@ module.exports = {
             listenIps: [
                 {
                     ip: '0.0.0.0',
-                    announcedIp: getLocalIp(), // replace by 'public static IPV4 address' https://api.ipify.org (type string --> 'xx.xxx.xxx.xx' not xx.xxx.xxx.xx)
+                    announcedIp: '216.24.57.253', // replace by 'public static IPV4 address' https://api.ipify.org (type string --> 'xx.xxx.xxx.xx' not xx.xxx.xxx.xx)
                 }, //announcedIp: '' will be auto-detected on server start, for docker localPC set '127.0.0.1'
             ],
             initialAvailableOutgoingBitrate: 1000000,
