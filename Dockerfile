@@ -15,5 +15,12 @@ RUN npm install
 
 COPY app app
 COPY public public
+CMD ufw status
+CMD ufw allow 3010/tcp
+CMD ufw allow 40000:40100/tcp
+CMD ufw allow 40000:40100/udp
 
+CMD ufw allow 22/tcp
+CMD ufw allow 80/tcp
+CMD ufw allow 443/udp
 CMD npm start
