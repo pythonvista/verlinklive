@@ -361,7 +361,7 @@ class RoomClient {
             this.userLog('error', 'Browser not supported: ' + error, 'center');
         }
         await device.load({
-            routerRtpCapabilities: rtpCapabilities
+            routerRtpCapabilities,
         });
         return device;
     }
