@@ -35,7 +35,7 @@ dependencies: {
  * MiroTalk SFU - Server component
  *
  * @link    GitHub: https://github.com/miroslavpejic85/mirotalksfu
- * @link    Official Live demo: https://sfu.mirotalk.com
+ * @link    Official Live demo: https://verlinklive.onrender.com
  * @license For open source use: AGPLv3
  * @license For commercial or closed source, contact us at license.mirotalk@gmail.com or purchase directly via CodeCanyon
  * @license CodeCanyon: https://codecanyon.net/item/mirotalk-sfu-webrtc-realtime-video-conferences/40769970

@@ -1,7 +1,7 @@
 'use strict';
 
 // const url = 'https://localhost:3010/stats';
-const url = 'https://sfu.mirotalk.com/stats';
+const url = 'https://verlinklive.onrender.com/stats';
 
 fetch(url)
     .then((response) => {

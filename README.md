@@ -5,13 +5,13 @@
 <hr />
 
 <p align="center">
-    <a href="https://sfu.mirotalk.com/">sfu.mirotalk.com</a>
+    <a href="https://verlinklive.onrender.com/">sfu.mirotalk.com</a>
 </p>
 
 <hr />
 
 <p align="center">
-    <a href="https://sfu.mirotalk.com/">
+    <a href="https://verlinklive.onrender.com/">
         <img src="public/images/mirotalksfu-header.gif">
     </a>
 </p>
@@ -74,7 +74,7 @@
 <br/>
 
 -   You can `join` directly to `room` by going to
--   https://sfu.mirotalk.com/join?room=test&password=0&name=mirotalksfu&audio=0&video=0&screen=0&notify=0
+-   https://verlinklive.onrender.com/join?room=test&password=0&name=mirotalksfu&audio=0&video=0&screen=0&notify=0
 
     | Params   | Type           | Description     |
     | -------- | -------------- | --------------- |
@@ -98,7 +98,7 @@ Embedding a meeting into a service or app using an iframe.
 ```html
 <iframe
     allow="camera; microphone; display-capture; fullscreen; clipboard-read; clipboard-write; autoplay"
-    src="https://sfu.mirotalk.com/newroom"
+    src="https://verlinklive.onrender.com/newroom"
     style="height: 100vh; width: 100vw; border: 0px;"
 ></iframe>
 ```
@@ -212,15 +212,15 @@ To `Self-Host MiroTalk SFU` on `Your` dedicated `Server`, read [this documentati
 
 <br/>
 
--   The API documentation uses [swagger](https://swagger.io/) at https://localhost:3010/api/v1/docs or check it on live [here](https://sfu.mirotalk.com/api/v1/docs).
+-   The API documentation uses [swagger](https://swagger.io/) at https://localhost:3010/api/v1/docs or check it on live [here](https://verlinklive.onrender.com/api/v1/docs).
 
 ```bash
 # The response will give you a entrypoint / Room URL for your meeting.
 $ curl -X POST "http://localhost:3010/api/v1/meeting" -H "authorization: mirotalksfu_default_secret" -H "Content-Type: application/json"
-$ curl -X POST "https://sfu.mirotalk.com/api/v1/meeting" -H "authorization: mirotalksfu_default_secret" -H "Content-Type: application/json"
+$ curl -X POST "https://verlinklive.onrender.com/api/v1/meeting" -H "authorization: mirotalksfu_default_secret" -H "Content-Type: application/json"
 # The response will give you a entrypoint / URL for the direct join to the meeting.
 $ curl -X POST "http://localhost:3010/api/v1/join" -H "authorization: mirotalksfu_default_secret" -H "Content-Type: application/json" --data '{"room":"test","password":"false","name":"mirotalksfu","audio":"false","video":"false","screen":"false","notify":"false"}'
-$ curl -X POST "https://sfu.mirotalk.com/api/v1/join" -H "authorization: mirotalksfu_default_secret" -H "Content-Type: application/json" --data '{"room":"test","password":"false","name":"mirotalksfu","audio":"false","video":"false","screen":"false","notify":"false"}'
+$ curl -X POST "https://verlinklive.onrender.com/api/v1/join" -H "authorization: mirotalksfu_default_secret" -H "Content-Type: application/json" --data '{"room":"test","password":"false","name":"mirotalksfu","audio":"false","video":"false","screen":"false","notify":"false"}'
 ```
 
 </details>
@@ -264,9 +264,9 @@ If you need help to deploy `MiroTalk SFU` instance on `your dedicated cloud serv
 
 <a target="_blank" href="https://hetzner.cloud/?ref=XdRifCzCK3bn"><img src="public/sponsors/Hetzner.png" style="width: 220px;"></a>
 
-https://sfu.mirotalk.com
+https://verlinklive.onrender.com
 
-[![mirotalksfu-qr](public/images/mirotalksfu-qr.png)](https://sfu.mirotalk.com/)
+[![mirotalksfu-qr](public/images/mirotalksfu-qr.png)](https://verlinklive.onrender.com/)
 
 </details>
 
